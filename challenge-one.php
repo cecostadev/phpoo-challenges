@@ -1,4 +1,6 @@
 <?php
+
+use AnswerQuestion as Answer;
 /*
 Challenge 1: Implement AnswerInterface and get Question to echo "4".
 */
@@ -20,7 +22,7 @@ interface AnswerInterface
     public function answer();
 }
 // start editing here
-class Answer implements AnswerInterface
+class AnswerQuestion implements AnswerInterface
 {
     private $value;
 
